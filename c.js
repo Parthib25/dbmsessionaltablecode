@@ -48,7 +48,7 @@ commit;
 <br>
 
 
- CREATE table DEPT${str1} DEPTNO NUMBER(2),DNAME VARCHAR2(20),LOC VARCHAR2(20));
+ CREATE table DEPT${str1}(DEPTNO NUMBER(2),DNAME VARCHAR2(20),LOC VARCHAR2(20));
 <br>
 
 insert into DEPT${str1} values(10,'ACCOUNTING','NEW YORK');
